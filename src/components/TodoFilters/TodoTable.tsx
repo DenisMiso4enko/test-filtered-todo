@@ -45,8 +45,9 @@ const TodoTable: React.FC<TodoTableProps> = ({
                   <TableCell>{todo.id}</TableCell>
                   <TableCell>
                     {
-                      data?.users?.find((user) => user?.id === todo?.userId)
-                        ?.username
+                      data?.users?.find(
+                        (user: User) => user?.id === todo?.userId
+                      )?.username
                     }
                   </TableCell>
                   <TableCell>{todo.title}</TableCell>

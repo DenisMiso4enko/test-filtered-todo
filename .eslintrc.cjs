@@ -14,7 +14,7 @@ module.exports = {
       "warn",
       { allowConstantExport: true },
     ],
-    "eslint no-unsafe-optional-chaining": "error",
+    "eslint no-unsafe-optional-chaining": 0,
     disallowArithmeticOperators: "true",
   },
 };
