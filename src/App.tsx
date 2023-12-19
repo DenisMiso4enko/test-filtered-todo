@@ -5,7 +5,7 @@ import { Filters, Todo, User } from "./types/types";
 import TodoFilters from "./components/TodoFilters/TodoFilters";
 
 import Pagination from "./components/Pagination/Pagination";
-import TodoTable from "./components/TodoFilters/TodoTable";
+import TodoTable from "./components/TodoTable/TodoTable";
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
